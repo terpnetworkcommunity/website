@@ -14,13 +14,7 @@ const BannerTop = () => {
         <div className="container-fluid bannernav-section">
             {banner ?
                 <div className="container">
-                    <Alert className="nav-banner alert-dismissible">
-                        <p>
-                            <a href="https://t.me/Persistenceatconsensus" rel="noopener noreferrer"
-                               target="_blank">
-                                <span>Persistence is at Consensus 2022 </span>&emsp;
-                                <img src={rightarrow} alt="arrow"/></a>
-                        </p>
+                    <Alert className="nav-banner alert-dismissible">          
                         <img src={close} alt="close" className="close" onClick={closeBanner}/>
                     </Alert>
                 </div>

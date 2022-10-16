@@ -34,13 +34,13 @@
 <stop offset="0.443944"/>
 </radialGradient>
 <radialGradient id="paint1_radial_711_880" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(6.14634 2.12195) rotate(90) scale(9.59233 9.82629)">
-<stop offset="0.0001" stop-color="#C14449"/>
-<stop offset="0.0002" stop-color="#E50913"/>
-<stop offset="1" stop-color="#2D0002"/>
+<stop offset="0.0001" stop-color="#EFAF63"/>
+<stop offset="0.0002" stop-color="#EFAF63"/>
+<stop offset="1" stop-color="#EF6262"/>
 </radialGradient>
 <linearGradient id="paint2_linear_711_880" x1="2.70732" y1="9.21951" x2="6.14634" y2="12" gradientUnits="userSpaceOnUse">
-<stop stop-color="#D83636"/>
-<stop offset="1" stop-color="#D83636" stop-opacity="0"/>
+<stop stop-color="#6262EF"/>
+<stop offset="1" stop-color="#6262EF" stop-opacity="0"/>
 </linearGradient>
 </defs>
 </svg>

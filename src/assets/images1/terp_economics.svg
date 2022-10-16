@@ -30,13 +30,13 @@
 <feBlend mode="normal" in2="shape" result="effect1_innerShadow_709_117"/>
 </filter>
 <radialGradient id="paint0_radial_709_117" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.6618 6.85003) rotate(75) scale(18.0237 18.4633)">
-<stop offset="0.0001" stop-color="#C14449"/>
-<stop offset="0.0002" stop-color="#E50913"/>
-<stop offset="1" stop-color="#2D0002"/>
+<stop offset="0.0001" stop-color="#"/>
+<stop offset="0.0002" stop-color="#"/>
+<stop offset="1" stop-color="#"/>
 </radialGradient>
 <linearGradient id="paint1_linear_709_117" x1="26.3551" y1="18.0593" x2="21.4656" y2="24.7781" gradientUnits="userSpaceOnUse">
-<stop stop-color="#D83636"/>
-<stop offset="1" stop-color="#D83636" stop-opacity="0"/>
+<stop stop-color="#"/>
+<stop offset="1" stop-color="#" stop-opacity="0"/>
 </linearGradient>
 <radialGradient id="paint2_radial_709_117" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(15.5023 4.85576) rotate(90) scale(26.764)">
 <stop stop-color="#414141"/>

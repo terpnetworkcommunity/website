@@ -16,7 +16,7 @@ body {
 }
 
 body {
-  background-color: #070B09 !important;
+  background-color: #08070D!important;
   scroll-behavior: smooth;
   
 }
@@ -56,7 +56,7 @@ body {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #e50913;
+  background: #6868CC;
 }
 
 .primary-medium-color {
@@ -79,7 +79,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: #e50913;
+  background: #6868CC;
 }
 
 
@@ -141,7 +141,7 @@ a {
     &:hover{
       background: transparent;
       border: 0px solid #303132;
-      color: #E50913;
+      color: #6868CC;
     }
 
   }
@@ -159,8 +159,8 @@ a {
     display: inline-block;
     transition: all 0.5s ease-in-out;
     &:hover{
-      background: #E50913;
-      border: 1px solid #E50913;
+      background: #6868CC;
+      border: 1px solid #6868CC;
     }
   }
 }
@@ -169,7 +169,7 @@ a {
 }
 
 .button-primary {
-  background-color: #e50913 !important;
+  background-color: #6868CC !important;
   border-radius: 0px !important;
   border: 0px solid !important;
   font-weight: bold !important;
@@ -251,15 +251,15 @@ a {
   transition: all ease 0.5s;
   .bannernav-section {
     width: 100%;
-    background: #e50913;
+    background: #6868CC;
     position: relative;
     top: 0px;
     margin-bottom: 15px;
 
   }
 }
-.navbar.navbar-custom.sticky-dark{
-  background: #070B09;
+.navbar.navbar-custom.sticky-light{
+  background: #08070D;
 
 }
   .navbar.navbar-custom {
@@ -326,7 +326,7 @@ a {
     }
     .nav-item.show{
         .nav-link {
-          border-bottom: 3px solid #e50913;
+          border-bottom: 3px solid #6868CC;
           .icon{
             transform: rotate(-90deg);
           }
@@ -360,7 +360,7 @@ a {
           color: #ffffff;
 
           &::first-letter {
-            border-top: 2px solid #e50913;
+            border-top: 2px solid #6868CC;
           }
         }
       .custom-dropdown .dropdown-menu {
@@ -438,7 +438,7 @@ a {
               font-size: 16px;
               line-height: 24px;
               text-transform: uppercase;
-              color: #1C1C21;
+              color: #08070D;
               padding: 10px 0;
               border-bottom: 2px solid #D9D9D9;
               margin-bottom: 24px;
@@ -448,7 +448,7 @@ a {
                 font-size: 16px;
                 line-height: 24px;
                 text-transform: capitalize;
-                color: #1C1C21;
+                color: #08070D;
                 margin-bottom: 16px;
                 font-weight: 600;
                 display: block;
@@ -469,7 +469,7 @@ a {
                 line-height: 24px;
                 transition: all 0.5s ease-in-out;
                 text-transform: capitalize;
-                color: #1C1C21;
+                color: #08070D;
                 margin-bottom: 16px;
                 font-weight: 400;
                 display: inline-block;
@@ -635,7 +635,7 @@ a {
       box-shadow: none;
 
       &:hover {
-        background: #e50913;
+        background: #6868CC;
       }
     }
   }
@@ -712,7 +712,7 @@ a {
             margin-right: 5px;
             width: 32px;
             height: 32px;
-            background-color: #e50913;
+            background-color: #6868CC;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -829,7 +829,7 @@ a {
     opacity: 1 !important;
     width: auto;
     text-transform: uppercase;
-    background: #E50913 !important;
+    background: #6868CC !important;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08) !important;
     border-radius: 6px !important;
     border: 0px solid !important;
@@ -1002,9 +1002,9 @@ a {
 
 .bar-container > div > div > div {
   height: 2px !important;
-  background: #e50913 !important;
-  background-color: #e50913 !important;
-  border: 2px solid #e50913;
+  background: #6868CC !important;
+  background-color: #6868CC !important;
+  border: 2px solid #6868CC;
   box-sizing: border-box;
   //box-shadow: 0 -2px 14px red;
 }

@@ -1,4 +1,4 @@
-name = "persistence-website"
+name = "terp-website"
 type = "webpack"
 route = ''
 zone_id = '000fde296cba847a78e918414382ba7a'
@@ -9,7 +9,7 @@ site = {bucket = "./build",entry-point = "workers-site"}
 compatibility_date = "2022-06-06"
 
 [env.staging]
-route = 'https://staging.persistence.one/*'
+route = 'https://staging.terp.network/*'
 
 [env.release]
-route = 'https://persistence.one/*'
+route = 'https://terp.network/*'

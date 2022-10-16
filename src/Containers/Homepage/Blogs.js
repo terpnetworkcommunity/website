@@ -18,22 +18,10 @@ const responsive = {
 };
 const images = [
     {
-        url:'https://blog.persistence.one/2022/02/10/the-vision-for-persistence-and-xprt-value-accrual/',
-        image:'https://blog.persistence.one/wp-content/uploads/2022/06/XPRT-utility-and-value-accrual.png',
-        title:"The Vision for Persistence",
-        subtitle:"$XPRT TOKEN"
-    },
-    {
-        url:'https://blog.persistence.one/2022/02/07/from-the-founders-desk-mission-2022/',
-        image:'https://blog.persistence.one/wp-content/uploads/2022/06/0-ZgVUN-HPoMTO5AEO.jpg',
-        title:"From the Founder’s Desk",
-        subtitle:"MISSION 2022"
-    },
-    {
-        url:'https://blog.persistence.one/2022/06/03/community-newsletter-20-may-2022/',
-        image:'https://blog.persistence.one/wp-content/uploads/2022/06/Persistence-Monthly-Newsletter-For-May-2022.png',
-        title:"Community Newsletter #20",
-        subtitle:"MAY 2022"
+        url:'https://terpnetwork.medium.com',
+        image:'https://miro.medium.com/max/1400/1*BB8Dhd_9iQFN6ru74OPOvQ.jpeg',
+        title:"The Vision for Terp Network",
+        subtitle:"Terp Network"
     }
 ];
 
@@ -57,7 +45,7 @@ const Blogs = ({ deviceType }) => {
                                key={image.url}
                                className="button">
                                 <img
-                                    draggable={false}
+                                    draggable={true}
                                     alt={image.image}
                                     style={{ width: "100%", height: "100%" }}
                                     src={image.image}

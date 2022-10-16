@@ -1,33 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { percent } from "../../utils/FormatNumber";
+import React, { useEffect } from 'react';
 import osmo from "../../assets/images1/osmo.svg";
 import juno_swap from "../../assets/images1/juno_swap.svg";
-import axios from "axios";
-import {
-    POOL_DATA_URL
-} from "../../constants/config";
 const Opportunities = () => {
-    const [xprtOsmo, setXprtOsmo] = useState("");
-    const [xprtUsdc, setXprtUsdc] = useState("");
-    const [xprtAtom, setXprtAtom] = useState("");
-
     useEffect(() => {
-        axios.get(POOL_DATA_URL)
-            .then(res => {
-                const poolsData = res.data;
-                poolsData.map(function(value){
-                    if(value && value.pool && value.pool.length && value.pool.length>=2 && value.pool[0]==='XPRT' && value.pool[1]==='OSMO'){
-                        setXprtOsmo(value.total_apr) ;
-                    }
-                    if(value && value.pool && value.pool.length && value.pool.length>=2 && value.pool[0]==='XPRT' && value.pool[1]==='USDC'){
-                        setXprtUsdc(value.total_apr);
-                    }
-                    if(value && value.pool && value.pool.length && value.pool.length>=2 && value.pool[0]==='ATOM' && value.pool[1]==='XPRT'){
-                        setXprtAtom(value.total_apr);
-                    }
-                    return false;
-                });
-            })
+        
 
 
     }, []);
@@ -42,7 +18,7 @@ const Opportunities = () => {
                             <div className="col-md-6">
                                 <div className="box">
                                 <p className="name">Staking</p>
-                                <p className="apr">~93%</p>
+                                <p className="apr">TBD</p>
                                 <p className="sub-title">Staking Rewards</p>
                                 <div className="buttons">
                                     <a href="https://wallet.keplr.app/#/core/stake"
@@ -51,7 +27,7 @@ const Opportunities = () => {
                                         Stake
                                     </a>
 
-                                    <a target="_blank" rel="noopener noreferrer" href="https://medium.com/persistence-blog/persistence-xprt-staking-guide-4504cf9a19df"
+                                    <a target="_blank" rel="noopener noreferrer" href="https://docs.terp.network"
                                        className="button-secondary">
                                         TUTORIAL
                                     </a>
@@ -88,7 +64,7 @@ const Opportunities = () => {
                                     <p className="apr"> TBD <span className="apr-text">APR</span></p>
                                     <div className="buttons">
                                         <a href="https://app.osmosis.zone/pool/719" target="_blank" rel="noopener noreferrer" className="primary">
-                                            Provide Liquidity
+                                            Explore More
                                         </a>
                                     </div>
                                 </div>
@@ -103,7 +79,7 @@ const Opportunities = () => {
                                     <p className="apr">TBD<span className="apr-text">APR</span></p>
                                     <div className="buttons">
                                         <a href="https://app.osmosis.zone/" target="_blank" rel="noopener noreferrer" className="primary">
-                                            Provide Liquidity
+                                            Explore More
                                         </a>
                                     </div>
                                 </div>
@@ -119,7 +95,7 @@ const Opportunities = () => {
                                     <p className="apr">TBD <span className="apr-text">APR</span></p>
                                     <div className="buttons">
                                         <a href="https://app.osmosis.zone/" target="_blank" rel="noopener noreferrer" className="primary">
-                                            Provide Liquidity
+                                            Explore More
                                         </a>
                                     </div>
                                 </div>
@@ -132,8 +108,8 @@ const Opportunities = () => {
                                     <p className="sub-title">TERP/JUNO Pool</p>
                                     <p className="apr"><span className="apr-text">(Rewards Coming Soon)</span></p>
                                     <div className="buttons">
-                                        <a href="https://junoswap.com/pools/TERP-XPRT" target="_blank" rel="noopener noreferrer" className="primary">
-                                            Provide Liquidity
+                                        <a href="https://junoswap.com/pools/" target="_blank" rel="noopener noreferrer" className="primary">
+                                            Explore More
                                         </a>
 
                                     </div>

@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, withRouter, Link } from 'react-router-dom';
-import logo from '../../assets/images1/pstakesymbolblack.svg'
+import logo from '../../assets/images1/terpsymbolblack.svg'
 import logotwo from '../../assets/images1/logo.svg'
 import {Nav, Navbar, NavDropdown} from "react-bootstrap";
-import { useTranslation } from "react-i18next";
+
 
 import Icon from "../Icon";
 import {
     TERPNET_GITHUB_URL,
-   TERPNET_TELEGRAM_URL,
+   TERPNET_ELEMENT_URL,
    TERPNET_TWITTER_URL,
    TERPNET_MEDIUM_URL,
    TERPNET_REDDIT_URL
@@ -23,7 +23,7 @@ const socialList = [
         tooltip: 'twitter'
     },
     {
-        url:TERPNET_TELEGRAM_URL,
+        url:TERPNET_ELEMENT_URL,
         iconName: 'telegram-plane',
         tooltip: 'telegram'
     },
@@ -46,7 +46,6 @@ const Header = () => {
     const [mobileMenu, setMobileMenu] = useState(false);
     const [isActive, setIsActive] = useState(false);
 
-    const { t } = useTranslation();
     useEffect(() => {
         document.body.classList = "";
         window.addEventListener("scroll", scrollNavigation, true);
@@ -68,11 +67,11 @@ const Header = () => {
         var doc = document.documentElement;
         var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
         if (top > 50) {
-            document.getElementById('nav-bar').classList.add('sticky-dark');
+            document.getElementById('nav-bar').classList.add('sticky-light');
         }
         else {
 
-            document.getElementById('nav-bar').classList.remove('sticky-dark');
+            document.getElementById('nav-bar').classList.remove('sticky-light');
         }
     }
 
@@ -131,22 +130,22 @@ const Header = () => {
                                 <p className="header">Developers</p>
                                   <div className="inner-items">
                                       <div className="inner-item-container">
-                                          <a href="https://github.com/persistenceOne/persistenceCore" rel="noopener noreferrer"
+                                          <a href="https://github.com/terp-network/terp-core" rel="noopener noreferrer"
                                              target="_blank" className="inner-item">Terp-Core <Icon viewClass="social_icon_imgg"
                                                                                                           icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
-                                      <a href="https://github.com/persistenceOne" rel="noopener noreferrer"
+                                      <a href="https://github.com/terp-core" rel="noopener noreferrer"
                                          target="_blank" className="inner-item">Github Repository <Icon viewClass="social_icon_imgg"
                                                                                                         icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
-                                      <a href="https://drive.google.com/file/d/12cjxcyqFdVDY55i4Wh_31k9viVciemRr/view" rel="noopener noreferrer"
+                                      <a href="https://docs.terp.network" rel="noopener noreferrer"
                                          target="_blank" className="inner-item">Ecosystem Grants <Icon viewClass="social_icon_imgg"
                                                                                                           icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
-                                      <a href="https://discord.com/invite/qXRmTTGcYD" rel="noopener noreferrer"
+                                      <a href="https://discord.gg/SYEjMwAac7" rel="noopener noreferrer"
                                          target="_blank" className="inner-item">Developer Discord Channel <Icon viewClass="social_icon_imgg"
                                                                                                                 icon={'exlink'} /></a>
                                       </div>
@@ -156,23 +155,18 @@ const Header = () => {
                                   <p className="header">Validators</p>
                                   <div className="inner-items">
                                       <div className="inner-item-container">
-                                      <a href="https://github.com/persistenceOne/awesome-persistence/blob/main/Validator.md"
+                                      <a href="https://docs.terp.network/developing/network/join-testnet.html"
                                          target="_blank" rel="noopener noreferrer" className="inner-item">Become a Validator <Icon viewClass="social_icon_imgg"
                                                                                                          icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
-                                      <a href="https://drive.google.com/file/d/1ZhbBaViq0a6_ZR2_CSmzrWjfQ4_klzj8/view"
+                                      <a href="https://docs.terp.network"
                                          className="inner-item" target="_blank" rel="noopener noreferrer">Foundation Delegation Program <Icon viewClass="social_icon_imgg"
                                                                                                                 icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
                                       <a href="https://rpc.terp.network/" target="_blank" rel="noopener noreferrer" className="inner-item">RPC End Points <Icon viewClass="social_icon_imgg"
                                                                                                                                                                         icon={'exlink'} /></a>
-                                      </div>
-                                      <div className="inner-item-container">
-                                      <a href=""
-                                         target="_blank" rel="noopener noreferrer" className="inner-item">Validator Discord Channel <Icon viewClass="social_icon_imgg"
-                                                                                                                                          icon={'exlink'} /></a>
                                       </div>
                                   </div>
                               </div>
@@ -196,17 +190,12 @@ const Header = () => {
                                     <p className="header">EXPLORER</p>
                                     <div className="inner-items">
                                         <div className="inner-item-container">
-                                        <a href="https://www.mintscan.io/persistence" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Mintscan  <Icon viewClass="social_icon_imgg"
+                                        <a href="https://www.skynetexplorers.com/terpnetwork" rel="noopener noreferrer"
+                                           target="_blank" className="inner-item">Skynet Explorer <Icon viewClass="social_icon_imgg"
                                                                                                   icon={'exlink'} /></a>
                                         </div>
                                         <div className="inner-item-container">
-                                        <a href="https://hubble.figment.io/persistence/chains/core-1" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Hubble  <Icon viewClass="social_icon_imgg"
-                                                                                                icon={'exlink'} /></a>
-                                        </div>
-                                        <div className="inner-item-container">
-                                            <a href="https://cosmoscan.net/persistence" rel="noopener noreferrer"
+                                            <a href="https://cosmoscan.net/" rel="noopener noreferrer"
                                                target="_blank" className="inner-item">Cosmoscan <Icon viewClass="social_icon_imgg"
                                                                                                     icon={'exlink'} /></a>
                                         </div>
@@ -225,11 +214,6 @@ const Header = () => {
                                         <a href="https://www.cosmostation.io/" rel="noopener noreferrer"
                                            target="_blank" className="inner-item">Cosmostation <Icon viewClass="social_icon_imgg"
                                                                                                      icon={'exlink'} /></a>
-                                        </div>
-                                        <div className="inner-item-container">
-                                        <a href="https://coin98.com/" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Coin98 <Icon viewClass="social_icon_imgg"
-                                                                                               icon={'exlink'} /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -254,8 +238,8 @@ const Header = () => {
                                     <p className="header">PROGRAM</p>
                                     <div className="inner-items">
                                         <div className="inner-item-container">
-                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeeewzYI2E3HXDZaZHa2KH3NULw30HnRmiu33EYL75H1op-Dw/viewform" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Guardians Program <Icon viewClass="social_icon_imgg"
+                                        <a href="https://forms.gle/Jujc3wxfEU22iChTA" rel="noopener noreferrer"
+                                           target="_blank" className="inner-item">TerpTEAM Program <Icon viewClass="social_icon_imgg"
                                                                                               icon={'exlink'} /></a>
                                         </div>
                                         <div className="inner-item-container m-none">
@@ -277,8 +261,8 @@ const Header = () => {
                                                                                               icon={'exlink'} /></a>
                                         </div>
                                         <div className="inner-item-container">
-                                        <a href="" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Provide Liquidity <Icon viewClass="social_icon_imgg"
+                                        <a href="https://docs.terp.network" rel="noopener noreferrer"
+                                           target="_blank" className="inner-item">Build Applications <Icon viewClass="social_icon_imgg"
                                                                                                      icon={'exlink'} /></a>
                                         </div>
                                         <div className="inner-item-container">
@@ -292,7 +276,7 @@ const Header = () => {
                                     <p className="header">forum</p>
                                     <div className="inner-items">
                                         <div className="inner-item-container">
-                                        <a href="https://forum.persistence.one/" rel="noopener noreferrer"
+                                        <a href="https://forum.terp.network/" rel="noopener noreferrer"
                                            target="_blank" className="inner-item">Community Forum <Icon viewClass="social_icon_imgg"
                                                                                                         icon={'exlink'} /></a>
                                         </div>
@@ -312,7 +296,7 @@ const Header = () => {
                                   target="_blank" href="http://blog.terp.network/"
                                  data-toggle="dropdown" aria-haspopup="true"
                                  aria-expanded="false">
-                            {t("BLOG")}
+                            {("BLOG")}
                         </Nav.Link>
                     </Nav>
                     <div className="nav-dropdown-item">

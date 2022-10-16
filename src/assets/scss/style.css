@@ -31,7 +31,7 @@ body a:hover {
 }
 
 body {
-  background-color: #070B09 !important;
+  background-color: #40454F !important;
   scroll-behavior: smooth;
 }
 
@@ -70,7 +70,7 @@ body {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #e50913;
+  background: #6868CC;
 }
 
 .primary-medium-color {
@@ -84,7 +84,7 @@ body {
 }
 
 .primary-bg-color {
-  background: #313238;
+  background: #40454F;
 }
 
 .primary-white-color {
@@ -93,7 +93,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: #e50913;
+  background: #eddd9b;
 }
 
 .flex-box {
@@ -155,7 +155,7 @@ a {
 .button-section .button-initial.button.two:hover {
   background: transparent;
   border: 0px solid #303132;
-  color: #E50913;
+  color: #7709e5;
 }
 .button-section .button-initial.button {
   background: transparent;
@@ -172,8 +172,8 @@ a {
   transition: all 0.5s ease-in-out;
 }
 .button-section .button-initial.button:hover {
-  background: #E50913;
-  border: 1px solid #E50913;
+  background: #280a0c;
+  border: 1px solid #6868CC;
 }
 
 .Toastify__toast {
@@ -181,7 +181,7 @@ a {
 }
 
 .button-primary {
-  background-color: #e50913 !important;
+  background-color: #6868CC !important;
   border-radius: 0px !important;
   border: 0px solid !important;
   font-weight: bold !important;
@@ -252,14 +252,14 @@ a {
 }
 .navbar.navbar-custom.scrolled .bannernav-section {
   width: 100%;
-  background: #e50913;
+  background: #6868CC;
   position: relative;
   top: 0px;
   margin-bottom: 15px;
 }
 
-.navbar.navbar-custom.sticky-dark {
-  background: #070B09;
+.navbar.navbar-custom.sticky-light {
+  background: #08070D;
 }
 
 .navbar.navbar-custom {
@@ -296,10 +296,10 @@ a {
   margin: 0;
   font-weight: 500;
   font-size: 12px;
-  color: #000;
+  color: rgb(225, 205, 205);
 }
 .navbar.navbar-custom .bannernav-section .nav-banner p a {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 .navbar.navbar-custom .bannernav-section .nav-banner p a:hover {
   color: #000;
@@ -323,7 +323,7 @@ a {
   color: #ffffff;
 }
 .navbar.navbar-custom .nav-item.show .nav-link {
-  border-bottom: 3px solid #e50913;
+  border-bottom: 3px solid #6868CC;
 }
 .navbar.navbar-custom .nav-item.show .nav-link .icon {
   transform: rotate(-90deg);
@@ -354,7 +354,7 @@ a {
   color: #ffffff;
 }
 .navbar.navbar-custom .navbar-nav .nav-link.active::first-letter {
-  border-top: 2px solid #e50913;
+  border-top: 2px solid #6868CC;
 }
 .navbar.navbar-custom .navbar-nav .custom-dropdown .dropdown-menu {
   top: 74px;
@@ -430,7 +430,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #1C1C21;
+  color: #08070D;
   padding: 10px 0;
   border-bottom: 2px solid #D9D9D9;
   margin-bottom: 24px;
@@ -439,7 +439,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   text-transform: capitalize;
-  color: #1C1C21;
+  color: #08070D;
   margin-bottom: 16px;
   font-weight: 600;
   display: block;
@@ -452,7 +452,7 @@ a {
   line-height: 24px;
   transition: all 0.5s ease-in-out;
   text-transform: capitalize;
-  color: #1C1C21;
+  color: #08070D;
   margin-bottom: 16px;
   font-weight: 400;
   display: inline-block;
@@ -600,7 +600,7 @@ a {
   box-shadow: none;
 }
 .modal-data .regional-box a:hover {
-  background: #e50913;
+  background: #6868CC;
 }
 
 .modal-open {
@@ -654,7 +654,7 @@ a {
   margin-right: 5px;
   width: 32px;
   height: 32px;
-  background-color: #e50913;
+  background-color: #6868CC;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -755,7 +755,7 @@ a {
   opacity: 1 !important;
   width: auto;
   text-transform: uppercase;
-  background: #E50913 !important;
+  background: #6868CC !important;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08) !important;
   border-radius: 6px !important;
   border: 0px solid !important;
@@ -908,9 +908,9 @@ a {
 
 .bar-container > div > div > div {
   height: 2px !important;
-  background: #e50913 !important;
-  background-color: #e50913 !important;
-  border: 2px solid #e50913;
+  background: #6868CC !important;
+  background-color: #6868CC !important;
+  border: 2px solid #6868CC;
   box-sizing: border-box;
 }
 
@@ -1041,7 +1041,7 @@ button:disabled {
   color: #B0B0B0;
 }
 .banner-section .button-initial.button.one {
-  background: #E50913;
+  background: #6868CC;
 }
 .banner-section .button-initial.button {
   background: transparent;
@@ -1057,8 +1057,8 @@ button:disabled {
   transition: all 0.5s ease-in-out;
 }
 .banner-section .button-initial.button:hover {
-  background: #E50913;
-  border: 1px solid #E50913;
+  background: #6868CC;
+  border: 1px solid #6868CC;
 }
 .banner-section .caption {
   font-weight: bold;
@@ -1112,12 +1112,12 @@ button:disabled {
   box-shadow: none !important;
 }
 .banner-section .banner-buttons .terp {
-  background: #E50913 !important;
+  background: #6868CC !important;
   margin-right: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 10px #E50913 !important;
+  box-shadow: 0 0 10px #6868CC !important;
 }
 .banner-section .banner-buttons .terp p {
   margin: 0;
@@ -1179,7 +1179,7 @@ button:disabled {
   width: 18px;
 }
 .banner-section .social-icons ul a .icon:hover {
-  fill: #E50913;
+  fill: #6868CC;
 }
 .banner-section .banner-video {
   width: 100%;
@@ -1262,7 +1262,7 @@ button:disabled {
   color: #fff;
   transition: all 0.3s;
   border-radius: 5px;
-  background-color: #e50913;
+  background-color: #6868CC;
 }
 .aim-section .features .features-section .btn:hover {
   transform: translateY(-5px);
@@ -1313,7 +1313,7 @@ button:disabled {
   background: #515257;
 }
 .aim-section .services-list:hover .serviceBody .icon {
-  fill: #E50913;
+  fill: #6868CC;
 }
 .aim-section .services-list:hover .media-body h5 {
   color: #FFFFFF;
@@ -1334,7 +1334,7 @@ button:disabled {
 
 .product-section {
   padding: 100px 0;
-  background: #1C1C21;
+  background: #08070D;
 }
 .product-section .row {
   margin: 0;
@@ -1528,7 +1528,7 @@ button:disabled {
   fill: #FFFFFF;
 }
 .product-section .col-md-3 .overlay-learn-more:hover {
-  background: #E50913;
+  background: #6868CC;
 }
 .product-section .col-md-3 .content:hover .content-overlay {
   opacity: 0;
@@ -1550,7 +1550,7 @@ button:disabled {
 }
 
 .our-backers {
-  background: linear-gradient(184.17deg, #1D1E22 3.64%, #1C1C21 96.87%);
+  background: linear-gradient(184.17deg, #1D1E22 3.64%, #08070D 96.87%);
   padding: 100px 0;
 }
 .our-backers .section-title {
@@ -1569,7 +1569,7 @@ button:disabled {
   background-color: transparent;
   position: relative;
   border: 0px solid;
-  border-bottom: 2px solid #E50913;
+  border-bottom: 2px solid #6868CC;
 }
 .our-backers .backers-row .nav-link {
   font-family: "Poppins", sans-serif;
@@ -1598,7 +1598,7 @@ button:disabled {
 }
 
 .stay-updated {
-  background: #1C1C21;
+  background: #08070D;
   padding: 100px 0;
 }
 .stay-updated li a img {
@@ -1666,7 +1666,7 @@ button:disabled {
   font-weight: normal;
 }
 .stay-updated .blog-section .learn-more {
-  border-bottom: 2px solid #E50913;
+  border-bottom: 2px solid #6868CC;
   padding-bottom: 5px;
   font-weight: 500;
   font-size: 12px;
@@ -1734,7 +1734,7 @@ button:disabled {
   color: #555555;
 }
 .stay-updated .blog-articles .custom-card .custom-card-body .learn-more {
-  border-bottom: 2px solid #E50913;
+  border-bottom: 2px solid #6868CC;
   padding-bottom: 5px;
   font-weight: 500;
   font-size: 12px;
@@ -1857,7 +1857,7 @@ button:disabled {
   transition: all 0.5s ease-in-out;
 }
 .home-ecosystem-section.ecosystem-section .network-section .info-text button svg:hover {
-  stroke: #E50913;
+  stroke: #6868CC;
 }
 .home-ecosystem-section.ecosystem-section .network-section .icon-social_icon_imgg {
   width: 36px;
@@ -1963,7 +1963,7 @@ button:disabled {
   color: #181818;
 }
 .home-ecosystem-section.TerpEcosystem .card-tiles .card-group .card .card-section .card-body .button-section .button-initial.button.two:hover {
-  color: #E50913;
+  color: #6868CC;
 }
 .home-ecosystem-section.TerpEcosystem .card-tiles .card-group .card .card-section .card-body .button-section {
   position: static;
@@ -2025,7 +2025,7 @@ button:disabled {
 .home-ecosystem-section h3.section-title .subt span {
   display: inline-block;
   line-height: 0.9;
-  border-top: 5px solid #E50913;
+  border-top: 5px solid #6868CC;
 }
 .home-ecosystem-section h3 {
   font-weight: 700;
@@ -2040,7 +2040,7 @@ button:disabled {
   text-align: center;
 }
 .home-ecosystem-section .sortbuttons button.active {
-  background: #E50913;
+  background: #6868CC;
 }
 .home-ecosystem-section .sortbuttons button {
   background: transparent;
@@ -2192,7 +2192,7 @@ button:disabled {
 
 .statistics-section {
   padding: 100px 0;
-  background: #1C1C21;
+  background: #08070D;
 }
 .statistics-section .section-title {
   font-weight: bold;
@@ -2223,7 +2223,7 @@ button:disabled {
 .terp-banner-section {
   padding: 200px 0 100px 0;
   background-repeat: no-repeat;
-  background-image: url(./../../images1/xprt_bg2.svg), url(./../../images1/xprt_bg.svg);
+  background-image: url(./../../images1/terp_bg2.svg), url(./../../images1/terp_bg.svg);
   background-size: 200px, contain;
   background-position: top right, center bottom;
 }
@@ -2244,7 +2244,7 @@ button:disabled {
   margin: 10px 0;
 }
 .terp-banner-section .content .left .terp-title-box {
-  border: 3px solid #e50913;
+  border: 3px solid #6868CC;
   background: #202123;
   box-shadow: 0px 0px 13px 4px rgba(229, 9, 19, 0.26);
   border-radius: 54px;
@@ -2264,7 +2264,7 @@ button:disabled {
 .terp-banner-section .content .left .terp-title-box p span {
   display: inline-block;
   line-height: 0.9;
-  border-top: 3px solid #E50913;
+  border-top: 3px solid #6868CC;
 }
 .terp-banner-section .content .left .heading {
   font-weight: 700;
@@ -2318,8 +2318,8 @@ button:disabled {
   margin-right: 10px;
 }
 .terp-banner-section .content .left .buttons .primary:hover {
-  background: #E50913;
-  border: 1px solid #E50913;
+  background: #6868CC;
+  border: 1px solid #6868CC;
 }
 .terp-banner-section .content .left .buttons .button-secondary {
   padding: 0px 2rem;
@@ -2337,7 +2337,7 @@ button:disabled {
   background: none;
 }
 .terp-banner-section .content .left .buttons .button-secondary:hover {
-  color: #E50913;
+  color: #6868CC;
 }
 .terp-banner-section .content .left .buttons .button-secondary:active, .terp-banner-section .content .left .buttons .button-secondary:hover {
   outline: none;
@@ -2481,8 +2481,8 @@ button:disabled {
   outline: none;
 }
 .opportunities-section .staking-boxes .boxes .box .buttons .primary:hover {
-  background: #E50913;
-  border: 1px solid #E50913;
+  background: #6868CC;
+  border: 1px solid #6868CC;
 }
 .opportunities-section .staking-boxes .boxes .box .buttons .button-secondary {
   font-weight: 600;
@@ -2499,7 +2499,7 @@ button:disabled {
   background: none;
 }
 .opportunities-section .staking-boxes .boxes .box .buttons .button-secondary:hover {
-  color: #E50913;
+  color: #6868CC;
 }
 .opportunities-section .staking-boxes .boxes .box .buttons .button-secondary:active, .opportunities-section .staking-boxes .boxes .box .buttons .button-secondary:hover {
   outline: none;
@@ -2549,7 +2549,7 @@ button:disabled {
   font-size: 48px;
   line-height: 60px;
   text-align: center;
-  color: #070B09;
+  color: #08070D;
   margin-bottom: 2.5rem;
 }
 .stay-updated.terp .blog-title {
@@ -2627,7 +2627,7 @@ button:disabled {
   color: #FFFFFF;
 }
 .info-form .text a {
-  color: #e50913;
+  color: #6868CC;
   text-decoration: underline;
   font-size: 16px;
   padding-left: 5px;
@@ -2766,7 +2766,7 @@ button:disabled {
 
   .navbar.navbar-custom {
     padding: 0 0;
-    background: #070B09;
+    background: #43ffa1;
   }
 
   .terp-banner-section .aquire-content .logos {
@@ -2857,7 +2857,7 @@ button:disabled {
 
   .navbar.navbar-custom {
     padding: 0 0;
-    background: #070B09;
+    background: #08070D;
   }
   .navbar.navbar-custom .navbar-brand img {
     width: 170px;
@@ -3100,7 +3100,7 @@ button:disabled {
     opacity: 1 !important;
     width: auto;
     text-transform: uppercase;
-    background: #E50913 !important;
+    background: #6868CC !important;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08) !important;
     border-radius: 6px !important;
     border: 0px solid !important;

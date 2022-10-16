@@ -13,7 +13,7 @@
   }
   //height: 100vh;
   //overflow: auto;
-  background-image:url(./../../images1/xprt_bg2.svg),  url(./../../images1/xprt_bg.svg);
+  background-image:url(./../../images1/terp_bg2.svg),  url(./../../images1/terp_bg.svg);
   background-size:200px, contain ;
   background-position:top right, center bottom;
   .content{
@@ -22,10 +22,10 @@
     .left {
       margin: 10px 0;
       .terp-title-box{
-        border: 3px solid rgba(229, 9, 19, 1);
-        //border-image-source: linear-gradient(102.1deg, #E50913 14.9%, #611C1F 100%);
+        border: 3px solid #ACF9CB;
+        //border-image-source: linear-gradient(102.1deg, #6868CC 14.9%, #611C1F 100%);
         background: #202123;
-        box-shadow: 0px 0px 13px 4px rgba(229, 9, 19, 0.26);
+        box-shadow: 0px 0px 13px 4px #C9DCBF;
         border-radius: 54px;
         padding:6px 12px;
         display: inline-block;
@@ -41,7 +41,7 @@
           span{
             display: inline-block;
             line-height: 0.9;
-            border-top: 3px solid #E50913;
+            border-top: 3px solid #6868CC;
           }
         }
       }
@@ -82,8 +82,8 @@
         margin-top: 2.5rem;
         .primary{
           &:hover{
-            background: #E50913;
-            border:1px solid #E50913
+            background: #6868CC;
+            border:1px solid #6868CC
 
           }
           background: transparent;
@@ -104,7 +104,7 @@
         }
         .button-secondary{
           &:hover{
-            color:#E50913;
+            color:#6868CC;
           }
           padding: 0px 2rem;
           font-weight: 600;
@@ -261,8 +261,8 @@
             margin-top: 2.5rem;
             .primary{
               &:hover{
-                background: #E50913;
-                border: 1px solid #E50913;
+                background: #6868CC;
+                border: 1px solid #6868CC;
 
               }
               background: transparent;
@@ -282,7 +282,7 @@
             }
             .button-secondary{
               &:hover{
-                color: #E50913;
+                color: #6868CC;
 
               }
               font-weight: 600;
@@ -357,7 +357,7 @@
     font-size: 48px;
     line-height: 60px;
     text-align: center;
-    color: #070B09;
+    color: #08070D;
     margin-bottom: 2.5rem;
   }
   background: #FCFCFC;

@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
-import './components/Internationalization/i18n'
 import App from './App';
 import ReactGa from 'react-ga';
 import * as serviceWorker from './serviceWorker';

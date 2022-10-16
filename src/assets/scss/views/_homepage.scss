@@ -25,7 +25,7 @@
     }
   }
   .button-initial.button.one{
-    background: #E50913;
+    background: #6868CC;
   }
   .button-initial.button{
     background: transparent;
@@ -40,8 +40,8 @@
     display: inline-block;
     transition: all 0.5s ease-in-out;
     &:hover{
-      background: #E50913;
-      border: 1px solid #E50913;
+      background: #6868CC;
+      border: 1px solid #6868CC;
     }
   }
   .caption {
@@ -103,12 +103,12 @@
     }
 
     .terp {
-      background: #E50913 !important;
+      background: #6868CC !important;
       margin-right: 15px;
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 0 10px #E50913 !important;
+      box-shadow: 0 0 10px #6868CC !important;
 
       p {
         margin: 0;
@@ -182,7 +182,7 @@
           width: 18px;
 
           &:hover {
-            fill: #E50913;
+            fill: #6868CC;
           }
         }
       }
@@ -280,7 +280,7 @@
         color: #fff;
         transition: all 0.3s;
         border-radius: 5px;
-        background-color: #e50913;
+        background-color: #6868CC;
 
         &:hover {
           transform: translateY(-5px);
@@ -351,7 +351,7 @@
       }
 
       .serviceBody .icon {
-        fill: #E50913;
+        fill: #6868CC;
       }
 
       .media-body h5 {
@@ -380,7 +380,7 @@
 
 .product-section {
   padding: 100px 0;
-  background: #1C1C21;
+  background: #08070D;
 
   .row {
     margin: 0;
@@ -519,7 +519,7 @@
     }
 
     //.overlay-button {
-    //  background: #E50913 !important;
+    //  background: #6868CC !important;
     //  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08) !important;
     //  border-radius: 32.8824px;
     //  border: 0px solid !important;
@@ -632,7 +632,7 @@
       }
 
       &:hover {
-        background: #E50913;
+        background: #6868CC;
       }
     }
 
@@ -662,7 +662,7 @@
 }
 
 .our-backers {
-  background: linear-gradient(184.17deg, #1D1E22 3.64%, #1C1C21 96.87%);
+  background: linear-gradient(184.17deg, #1D1E22 3.64%, #08070D 96.87%);
   padding: 100px 0;
 
   .section-title {
@@ -685,7 +685,7 @@
       background-color: transparent;
       position: relative;
       border: 0px solid;
-      border-bottom: 2px solid #E50913;
+      border-bottom: 2px solid #6868CC;
     }
 
     .nav-link {
@@ -721,7 +721,7 @@
 }
 
 .stay-updated {
-  background: #1C1C21;
+  background: #08070D;
   padding: 100px 0;
   li a{
     img{
@@ -797,7 +797,7 @@
     }
 
     .learn-more {
-      border-bottom: 2px solid #E50913;
+      border-bottom: 2px solid #6868CC;
       padding-bottom: 5px;
       font-weight: 500;
       font-size: 12px;
@@ -886,7 +886,7 @@
         }
 
         .learn-more {
-          border-bottom: 2px solid #E50913;
+          border-bottom: 2px solid #6868CC;
           padding-bottom: 5px;
           font-weight: 500;
           font-size: 12px;
@@ -1020,7 +1020,7 @@
           stroke: #fff;
           transition: all 0.5s ease-in-out;
           &:hover {
-            stroke: #E50913;
+            stroke: #6868CC;
           }
         }
       }
@@ -1129,7 +1129,7 @@
             .button-section .button-initial.button.two{
               color: #181818;
               &:hover{
-                color:#E50913;
+                color:#6868CC;
               }
             }
             .button-section {
@@ -1195,7 +1195,7 @@ width: 770px;
     span{
       display: inline-block;
       line-height: 0.9;
-      border-top: 5px solid #E50913;
+      border-top: 5px solid #6868CC;
     }
   }
   }
@@ -1211,7 +1211,7 @@ width: 770px;
   .sortbuttons{
     text-align: center;
     button.active{
-      background: #E50913;
+      background: #6868CC;
     }
     button{
       &:focus{
@@ -1373,7 +1373,7 @@ img{
 }
 .statistics-section{
   padding: 100px 0;
-  background: #1C1C21;
+  background: #08070D;
   .section-title{
     font-weight: bold;
     font-size: 32px;

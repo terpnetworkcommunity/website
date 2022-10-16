@@ -27,7 +27,7 @@ function ContextAwareToggle({children, eventKey, callback}) {
 const Faq = () => {
     return (
         <>
-            <section className="xprt-banner-ecosystem ecosystem-faq-section" data-aos="fade-up">
+            <section className="terp-banner-ecosystemecosystem-faq-section" data-aos="fade-up">
                 <div className="container">
                     <h1 className="section-title">FAQs</h1>
                     <div className="row">
@@ -142,7 +142,7 @@ const Faq = () => {
                                     <Card>
                                         <Card.Header>
                                             <p>
-                                                Which wallets support $XPRT?
+                                                Which wallets support $TERP?
                                             </p>
                                             <ContextAwareToggle eventKey="7">Click me!</ContextAwareToggle>
                                         </Card.Header>
@@ -152,11 +152,6 @@ const Faq = () => {
                                                     $TERP is supported by:
                                                 </p>
                                                 <ul className="links">
-                                                    <li>
-                                                        <a href="https://wallet.persistence.one" rel="noopener noreferrer"
-                                                           target="_blank"
-                                                           className="button">https://wallet.persistence.one</a>
-                                                    </li>
                                                     <li>
                                                         <a href="https://wallet.keplr.app/" rel="noopener noreferrer"
                                                            target="_blank"
@@ -192,14 +187,14 @@ const Faq = () => {
                                                            className="button">Glassflow Dapp Hub</a>
                                                     </li>
                                                     <li>
-                                                        <a href="https://assetmantle.one" rel="noopener noreferrer"
+                                                        <a href="https://terpdao.xyz" rel="noopener noreferrer"
                                                            target="_blank"
                                                            className="button">TerpDAO </a>
                                                     </li>
                                                     <li>
-                                                        <a href="https://comdex.one/home" rel="noopener noreferrer"
+                                                        <a href="https://terp.network" rel="noopener noreferrer"
                                                            target="_blank"
-                                                           className="button"></a>
+                                                           className="button">Add your Project</a>
                                                     </li>
                                                 </ul>
                                             </Card.Body>

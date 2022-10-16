@@ -4,11 +4,11 @@
 <defs>
 <radialGradient id="paint0_radial_725_66" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(884.5 1130.94) rotate(165.138) scale(915.115 1589.91)">
 <stop stop-color="#26282D"/>
-<stop offset="1" stop-color="#070B09"/>
+<stop offset="1" stop-color="#08070a"/>
 </radialGradient>
 <radialGradient id="paint1_radial_725_66" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(876.406 757.589) rotate(36.2433) scale(694.84 706.99)">
 <stop stop-color="#2F3134"/>
-<stop offset="1" stop-color="#070B09"/>
+<stop offset="1" stop-color="#08070a"/>
 </radialGradient>
 </defs>
 </svg>

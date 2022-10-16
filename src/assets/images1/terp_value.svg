@@ -35,8 +35,8 @@
 </radialGradient>
 <radialGradient id="paint1_radial_709_533" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(6.45117 2.22719) rotate(90) scale(10.0681 10.3136)">
 <stop offset="0.0001" stop-color="#C14449"/>
-<stop offset="0.0002" stop-color="#E50913"/>
-<stop offset="1" stop-color="#2D0002"/>
+<stop offset="0.0002" stop-color="#"/>
+<stop offset="1" stop-color="#"/>
 </radialGradient>
 <linearGradient id="paint2_linear_709_533" x1="2.84159" y1="9.67676" x2="6.45117" y2="12.5951" gradientUnits="userSpaceOnUse">
 <stop stop-color="#D83636"/>

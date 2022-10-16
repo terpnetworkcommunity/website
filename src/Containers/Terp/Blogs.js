@@ -27,16 +27,12 @@ const images = [
         image:'',
         text:'TERP Staking Guide'
     },
-    {
-        url:'https://www.youtube.com/watch?v=QG7VCqGFc_8',
-        image:'',
-        text:'Provide Liquidity on Osmosis'
-    }
+   
 ];
 
 const Blogs = ({ deviceType }) => {
     return (
-        <section className="stay-updated xprt">
+        <section className="stay-updated terp">
             <div className="container">
                 <p className="title">Tutorials</p>
                 <Carousel

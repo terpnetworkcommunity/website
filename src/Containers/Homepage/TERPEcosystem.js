@@ -6,7 +6,7 @@ import build from '../../assets/images1/buildon.svg';
 import Icon from "../../components/Icon";
 import {
    TERPNET_DISCORD_URL, TERPNET_GITHUB_URL,TERPNET_MEDIUM_URL,TERPNET_REDDIT_URL,
-   TERPNET_TELEGRAM_URL,
+   TERPNET_ELEMENT_URL,
    TERPNET_TWITTER_URL,TERPNET_YOUTUBE_URL
 } from "../../constants/config";
 import ReactGa from "react-ga";
@@ -32,7 +32,7 @@ const socialList = [
         tooltip: 'reddit'
     },
     {
-        url:TERPNET_TELEGRAM_URL,
+        url:TERPNET_ELEMENT_URL,
         iconName: 'telegram-plane',
         tooltip: 'telegram'
     },
@@ -57,7 +57,8 @@ const TerpEcosystem = () => {
     return (
         <section className="home-ecosystem-section TerpEcosystem">
             <div className="container">
-                <h3 className="section-title">Get Involved In the TerpNET ecosystem. Powered by <span className={"subt"}>TERP <span>&</span>PERSY</span> </h3>
+                <h3 className="section-title">Get Involved In Terp Network.</h3> 
+                <h3 className="section-title"> Powered by <span className={"subt"}>TERP <span>&</span> PERSY</span>.</h3>
                 <p className="sub-heading"></p>
                 <div className="card-tiles">
                     <CardGroup>
@@ -75,7 +76,7 @@ const TerpEcosystem = () => {
                                         to realise innovative use-cases for Terp-Core
                                     </Card.Text>
                                     <div className={"button-section cards-buttons mt-5"}>
-                                        <a href="https://drive.google.com/file/d/12cjxcyqFdVDY55i4Wh_31k9viVciemRr/view" rel="noopener noreferrer"
+                                        <a href="https://docs.terp.network" rel="noopener noreferrer"
                                            target="_blank" className="button-initial button">
                                             ECOSYSTEM GRANTS
                                         </a>
@@ -105,7 +106,7 @@ const TerpEcosystem = () => {
                                            target="_blank" className="button-initial button">
                                             DOCS
                                         </a>
-                                        <a href="" rel="noopener noreferrer"
+                                        <a href="https://docs.terp.network" rel="noopener noreferrer"
                                            target="_blank" className="button-initial button ml-3">
                                             FOUNDATION DELEGATION
                                         </a>

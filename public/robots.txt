@@ -1,6 +1,6 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://persistence.one/sitemap.xml
+Sitemap: https://terp.network/sitemap.xml
 
 

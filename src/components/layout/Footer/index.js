@@ -1,18 +1,17 @@
 import React from 'react';
-import icon from '../../../assets/images1/persistencefooterlogo.svg'
+import icon from '../../../assets/images1/terpsymbolblack.svg'
 import Mailchimp from "./MailChimp";
 import ReactGa from 'react-ga';
 import Icon from "../../Icon";
-import { useTranslation } from "react-i18next";
+
 import {
    TERPNET_DISCORD_URL,
    TERPNET_TWITTER_URL,
-   TERPNET_TELEGRAM_URL,
-   TERPNET_TELEGRAM_ANNOUNCEMENTS_URL,
+   TERPNET_ELEMENT_URL,
    TERPNET_REDDIT_URL,
    TERPNET_YOUTUBE_URL,
    TERPNET_MEDIUM_URL,
-   TERPNET_LINKEDIN_URL
+   
 } from "../../../constants/config";
 
 
@@ -23,15 +22,11 @@ const socialList = [
         tooltip: 'twitter'
     },
     {
-        url:TERPNET_TELEGRAM_URL,
+        url:TERPNET_ELEMENT_URL,
         iconName: 'telegram-plane',
         tooltip: 'telegram'
     },
-    {
-        url: TERPNET_TELEGRAM_ANNOUNCEMENTS_URL ,
-        iconName: 'announcements',
-        tooltip: 'announcements'
-    }, {
+   {
         url: TERPNET_DISCORD_URL ,
         iconName: 'discord',
         tooltip: 'discord'
@@ -47,15 +42,11 @@ const socialList = [
         url: TERPNET_MEDIUM_URL ,
         iconName: 'mediumlink',
         tooltip: 'medium'
-    }, {
-        url:TERPNET_LINKEDIN_URL ,
-        iconName: 'linkedin-footer',
-        tooltip: 'linkedIn'
-    },
+    }, 
 ];
 
 const Footer = (props) => {
-    const { t } = useTranslation();
+   
 
     const socialIcon = (iconName) => {
         ReactGa.event({
@@ -74,14 +65,14 @@ const Footer = (props) => {
                         <div className="col-lg-9 col-md-12">
                             <div className="row m-0">
                                 <div className="col-lg-4 col-md-4 col-sm-12 margin-t-20 ">
-                                    <h6>{t("General")}</h6>
+                                    <h6>{("General")}</h6>
                                     <div className="text-muted mt-30">
                                         <ul className="list-unstyled footer-list">
                                             <li><a href="/terp"
-                                                   rel="noopener noreferrer">XPRT</a></li>
+                                                   rel="noopener noreferrer">TERP</a></li>
                                             <li><a href="/ecosystem"
                                                    rel="noopener noreferrer">Ecosystem</a></li>
-                                            <li><a href="https://angel.co/company/persistence-one-1" target="_blank"
+                                            <li><a href="https://angel.co/company/terpNET" target="_blank"
                                                 rel="noopener noreferrer">Careers</a></li>
                                             <li><a href="https://drive.google.com/drive/folders/19JZsrnyMZDamjNMJCVxxYOvYPRO3dkUp?usp=sharing" target="_blank"
                                                    rel="noopener noreferrer">Press & Brand</a></li>
@@ -89,12 +80,12 @@ const Footer = (props) => {
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-sm-12 margin-t-20">
-                                    <h6>{t("Community")}</h6>
+                                    <h6>{("Community")}</h6>
                                     <div className="text-muted mt-30">
                                         <ul className="list-unstyled footer-list">
-                                            <li><a href="https://drive.google.com/file/d/1gEdSvITrKA6wTtujOf9EIzl6M0QtltRV/view?usp=sharing" rel="noopener noreferrer" target="_blank">{t("Grants ")}</a></li>
-                                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeeewzYI2E3HXDZaZHa2KH3NULw30HnRmiu33EYL75H1op-Dw/viewform" rel="noopener noreferrer" target="_blank">{t("Guardians Program")}</a></li>
-                                            <li><a href="https://drive.google.com/file/d/1ZhbBaViq0a6_ZR2_CSmzrWjfQ4_klzj8/view" rel="noopener noreferrer" target="_blank">{t("Foundation Delegation")}</a></li>
+                                            <li><a href="?usp=sharing" rel="noopener noreferrer" target="_blank">{("Grants ")}</a></li>
+                                            <li><a href="https://forms.gle/Jujc3wxfEU22iChTA" rel="noopener noreferrer" target="_blank">{("TerpTEAM Program")}</a></li>
+                                            <li><a href="https://terp.network" rel="noopener noreferrer" target="_blank">{("Foundation Delegation")}</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -104,7 +95,7 @@ const Footer = (props) => {
                                         <div>
                                             <div className="contact-box">
                                                 <div className="form-container mt-30">
-                                                    <p className="footer-text">{t("SUBSCRIBE_NOTE")}</p>
+                                                    <p className="footer-text">{"Sign up to get emails on importand developments by the community!"}</p>
                                                     <Mailchimp />
                                                 </div>
                                             </div>
@@ -118,7 +109,7 @@ const Footer = (props) => {
                             <div className="contact-us">
                                 <div>
                                     <div className="contact-box">
-                                        <h6 className="title"> {t("FOLLOW_US")}</h6>
+                                        <h6 className="title"> {"Keep Updated"}</h6>
 
                                     </div>
                                     <div className="social-links-section">
@@ -140,7 +131,7 @@ const Footer = (props) => {
                 <div className="container footer-bottom-section">
                     <div className="col-lg-6 footer-logo-section container ">
                         <img className="dark-logo" src={icon} alt="icon-logo" title="logo" />&emsp;
-                        {/*<span className="copy-rights mb-sm-0">{new Date().getFullYear()} © {t("Persistence.one | Privacy | Security")}</span>*/}
+                        {/*<span className="copy-rights mb-sm-0">{new Date().getFullYear()} © {t("terp.network | Privacy | Security")}</span>*/}
 
                     </div>
                     <div className={'col-lg-6 text-right'}>

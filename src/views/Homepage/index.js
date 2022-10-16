@@ -11,7 +11,7 @@ const Homepage = () => {
             <Banner/>
             <Ecosystem/>
             <Network/>
-            <TERPEcosystem />
+            <TERPEcosystem  />
             <Joinus/>
             <Blogs/>
         </React.Fragment>
