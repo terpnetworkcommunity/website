@@ -2,7 +2,7 @@ import React from 'react';
 import icon from '../../../assets/images1/terpsymbolblack.svg'
 import Mailchimp from "./MailChimp";
 import ReactGa from 'react-ga';
-import Icon from "../../Icon";
+
 
 import {
    TERPNET_DISCORD_URL,
@@ -13,7 +13,6 @@ import {
    TERPNET_MEDIUM_URL,
    
 } from "../../../constants/config";
-
 
 const socialList = [
     {
@@ -74,8 +73,8 @@ const Footer = (props) => {
                                                    rel="noopener noreferrer">Ecosystem</a></li>
                                             <li><a href="https://angel.co/company/terpNET" target="_blank"
                                                 rel="noopener noreferrer">Careers</a></li>
-                                            <li><a href="https://drive.google.com/drive/folders/19JZsrnyMZDamjNMJCVxxYOvYPRO3dkUp?usp=sharing" target="_blank"
-                                                   rel="noopener noreferrer">Press & Brand</a></li>
+                                            <li><a href="https://terp.network" target="_blank"
+                                                   rel="noopener noreferrer">Press & Brand (soon)</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -83,9 +82,9 @@ const Footer = (props) => {
                                     <h6>{("Community")}</h6>
                                     <div className="text-muted mt-30">
                                         <ul className="list-unstyled footer-list">
-                                            <li><a href="?usp=sharing" rel="noopener noreferrer" target="_blank">{("Grants ")}</a></li>
+                                            <li><a href="?usp=sharing" rel="noopener noreferrer" target="_blank">{("Grants (soon) ")}</a></li>
                                             <li><a href="https://forms.gle/Jujc3wxfEU22iChTA" rel="noopener noreferrer" target="_blank">{("TerpTEAM Program")}</a></li>
-                                            <li><a href="https://terp.network" rel="noopener noreferrer" target="_blank">{("Foundation Delegation")}</a></li>
+                                            <li><a href="https://github.com/terpnetworkcommunity/DAO/tree/main/foundation-delegation-policy" rel="noopener noreferrer" target="_blank">{("Foundation Delegation")}</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -117,7 +116,7 @@ const Footer = (props) => {
                                             {
                                                 socialList.map((item, index) => (
                                                     <a href={item.url} onClick={() => socialIcon(item.iconName)} rel="noopener noreferrer"
-                                                        target="_blank"><Icon viewClass="social_icon_imgg"
+                                                        target="_blank"><icon viewClass="social_icon_img"
                                                             icon={item.iconName} /></a>
                                                 ))
                                             }

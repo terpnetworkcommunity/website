@@ -76,9 +76,9 @@ const TerpEcosystem = () => {
                                         to realise innovative use-cases for Terp-Core
                                     </Card.Text>
                                     <div className={"button-section cards-buttons mt-5"}>
-                                        <a href="https://docs.terp.network" rel="noopener noreferrer"
+                                        <a href="https://terp.network" rel="noopener noreferrer"
                                            target="_blank" className="button-initial button">
-                                            ECOSYSTEM GRANTS
+                                            ECOSYSTEM GRANTS (soon)
                                         </a>
                                         <a href="https://github.com/terpnetwork/terp-core" rel="noopener noreferrer"
                                            target="_blank" className="button-initial button ml-3">
@@ -106,7 +106,7 @@ const TerpEcosystem = () => {
                                            target="_blank" className="button-initial button">
                                             DOCS
                                         </a>
-                                        <a href="https://docs.terp.network" rel="noopener noreferrer"
+                                        <a href="https://github.com/terpnetworkcommunity" rel="noopener noreferrer"
                                            target="_blank" className="button-initial button ml-3">
                                             FOUNDATION DELEGATION
                                         </a>

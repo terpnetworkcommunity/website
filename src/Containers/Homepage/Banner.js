@@ -8,17 +8,17 @@ const Banner = () => {
                     <div className="col-md-12 col-sm-12 text-center">
                         <p className="banner-heading"><span>TERPNET: Decentralized Infrastructure for the Cannabis Community  </span></p>
                         <p className="text">
-                            Terp Network is a Tendermint-core L1 powering an ecosystem
-                            <span> of DeFi dApps focused on full spectrum self-soviergnty.</span>
+                            Terp Network is a decentralized L1 blockchain hub within the Interchain, powering
+                            <span>   a full spectrum of DeFi applications.</span>
                         </p>
                         <div className={"button-section text-center d-inline-block"}>
                         <a href="/terp" rel="noopener noreferrer"
                             className="button-initial button one">
                             Learn More
                         </a>
-                            <a href="https://docs.terp.network" rel="noopener noreferrer"
+                            <a href="https://terp.network" rel="noopener noreferrer"
                                target="_blank" className="button-initial button">
-                                Ecosystem Grants
+                                Ecosystem Grants (soon)
                             </a>
                     </div>
                         <div className="stats-container text-white">

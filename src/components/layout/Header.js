@@ -130,18 +130,18 @@ const Header = () => {
                                 <p className="header">Developers</p>
                                   <div className="inner-items">
                                       <div className="inner-item-container">
-                                          <a href="https://github.com/terp-network/terp-core" rel="noopener noreferrer"
+                                          <a href="https://github.com/terpnetwork/terp-core.git" rel="noopener noreferrer"
                                              target="_blank" className="inner-item">Terp-Core <Icon viewClass="social_icon_imgg"
                                                                                                           icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
-                                      <a href="https://github.com/terp-core" rel="noopener noreferrer"
+                                      <a href="https://github.com/orgs/terpnetwork/repositories" rel="noopener noreferrer"
                                          target="_blank" className="inner-item">Github Repository <Icon viewClass="social_icon_imgg"
                                                                                                         icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
                                       <a href="https://docs.terp.network" rel="noopener noreferrer"
-                                         target="_blank" className="inner-item">Ecosystem Grants <Icon viewClass="social_icon_imgg"
+                                         target="_blank" className="inner-item">Ecosystem Grants (soon) <Icon viewClass="social_icon_imgg"
                                                                                                           icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
@@ -161,7 +161,7 @@ const Header = () => {
                                       </div>
                                       <div className="inner-item-container">
                                       <a href="https://docs.terp.network"
-                                         className="inner-item" target="_blank" rel="noopener noreferrer">Foundation Delegation Program <Icon viewClass="social_icon_imgg"
+                                         className="inner-item" target="_blank" rel="noopener noreferrer">Foundation Delegation Program (soon) <Icon viewClass="social_icon_imgg"
                                                                                                                 icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
@@ -190,17 +190,17 @@ const Header = () => {
                                     <p className="header">EXPLORER</p>
                                     <div className="inner-items">
                                         <div className="inner-item-container">
-                                        <a href="https://www.skynetexplorers.com/terpnetwork" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Skynet Explorer <Icon viewClass="social_icon_imgg"
+                                        <a href="https://terp.zenscan.io/" rel="noopener noreferrer"
+                                           target="_blank" className="inner-item">ZenScan Explorer <Icon viewClass="social_icon_imgg"
                                                                                                   icon={'exlink'} /></a>
                                         </div>
                                         <div className="inner-item-container">
-                                            <a href="https://cosmoscan.net/" rel="noopener noreferrer"
-                                               target="_blank" className="inner-item">Cosmoscan <Icon viewClass="social_icon_imgg"
+                                            <a href="https://skynetexplorers.com/terpnetwork/" rel="noopener noreferrer"
+                                               target="_blank" className="inner-item">Skynet Explorer <Icon viewClass="social_icon_imgg"
                                                                                                     icon={'exlink'} /></a>
                                         </div>
                                     </div>
-                                </div>
+                                </div>  
                                 <div className="nav-dropdown-item">
                                     <p className="header">WALLETS</p>
                                     <div className="inner-items">
@@ -211,8 +211,8 @@ const Header = () => {
                                         </div>
                                         <div className="inner-item-container">
 
-                                        <a href="https://www.cosmostation.io/" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Cosmostation <Icon viewClass="social_icon_imgg"
+                                        <a href="https://www.leapwallet.io/" rel="noopener noreferrer"
+                                           target="_blank" className="inner-item">Leap Wallet (wen?) <Icon viewClass="social_icon_imgg"
                                                                                                      icon={'exlink'} /></a>
                                         </div>
                                     </div>
@@ -257,7 +257,7 @@ const Header = () => {
                                     <div className="inner-items">
                                         <div className="inner-item-container">
                                         <a href="https://terpnetwork.medium.com" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Stake $TERP <Icon viewClass="social_icon_imgg"
+                                           target="_blank" className="inner-item">Stake $TERP (soon) <Icon viewClass="social_icon_imgg"
                                                                                               icon={'exlink'} /></a>
                                         </div>
                                         <div className="inner-item-container">
