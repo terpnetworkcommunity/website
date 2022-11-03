@@ -179,7 +179,7 @@ const Header = () => {
                                         <div className="inner-item-container">
                                         <a href="https://terp.network/" rel="noopener noreferrer"
                                            target="_blank" className="inner-item m-0">
-                                            <img src={logo} alt="pstakeLogo"/>
+                                            <img src={logo} alt="logo"/>
                                             <p className="header logo m-0">View Applications</p>
 
                                         </a>
