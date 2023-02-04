@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { netwrokData } from '../Ecosystem/netwoks';
+import { networkData } from '../Ecosystem/netwoks';
 import Icon from "../../components/Icon";
 
 const EcosystemContent = () => {
@@ -8,27 +8,27 @@ const EcosystemContent = () => {
     const handleClick = (event) => {
         setActive(event.target.id);
         if(event.target.id === '1'){
-            setAvailableNetwork(netwrokData);
+            setAvailableNetwork(networkData);
         }if(event.target.id === '2'){
-            setAvailableNetwork(netwrokData.filter(function(item){
+            setAvailableNetwork(networkData.filter(function(item){
                 return item.name === "dApp";
             }));
         }if(event.target.id === '3'){
-            setAvailableNetwork(netwrokData.filter(function(item){
+            setAvailableNetwork(networkData.filter(function(item){
                 return item.name === "Explorer";
             }));
         }if(event.target.id === '4'){
-            setAvailableNetwork(netwrokData.filter(function(item){
+            setAvailableNetwork(networkData.filter(function(item){
                 return item.name === "Wallet";
             }));
         }if(event.target.id === '5'){
 
-                setAvailableNetwork(netwrokData.filter(function(item){
+                setAvailableNetwork(networkData.filter(function(item){
                     return item.name === "Defi";
                 }));
 
         }if(event.target.id === '6'){
-            setAvailableNetwork(netwrokData.filter(function(item){
+            setAvailableNetwork(networkData.filter(function(item){
                 return item.name === "Tools";
             }));
 
@@ -37,7 +37,7 @@ const EcosystemContent = () => {
 
     }
     useEffect(() => {
-        setAvailableNetwork(netwrokData);
+        setAvailableNetwork(networkData);
 
 
     }, []);

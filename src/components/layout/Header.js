@@ -130,18 +130,23 @@ const Header = () => {
                                 <p className="header">Developers</p>
                                   <div className="inner-items">
                                       <div className="inner-item-container">
+                                      <a href="https://docs.terp.network" rel="noopener noreferrer"
+                                         target="_blank" className="inner-item">Documentation <Icon viewClass="social_icon_imgg"
+                                                                                                        icon={'exlink'} /></a>
+                                      </div>
+                                      <div className="inner-item-container">
                                           <a href="https://github.com/terpnetwork/terp-core.git" rel="noopener noreferrer"
                                              target="_blank" className="inner-item">Terp-Core <Icon viewClass="social_icon_imgg"
                                                                                                           icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
                                       <a href="https://github.com/orgs/terpnetwork/repositories" rel="noopener noreferrer"
-                                         target="_blank" className="inner-item">Github Repository <Icon viewClass="social_icon_imgg"
+                                         target="_blank" className="inner-item">Github  <Icon viewClass="social_icon_imgg"
                                                                                                         icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
-                                      <a href="https://docs.terp.network" rel="noopener noreferrer"
-                                         target="_blank" className="inner-item">Ecosystem Grants (soon) <Icon viewClass="social_icon_imgg"
+                                      <a href="https://github.com/terpnetwork/genesis-prelaunch/blob/main/docs/scavenger-hunt.md" rel="noopener noreferrer"
+                                         target="_blank" className="inner-item">NEW: TestNET Scavenger Hunt <Icon viewClass="social_icon_imgg"
                                                                                                           icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
@@ -155,7 +160,7 @@ const Header = () => {
                                   <p className="header">Validators</p>
                                   <div className="inner-items">
                                       <div className="inner-item-container">
-                                      <a href="https://docs.terp.network/developing/network/join-testnet.html"
+                                      <a href="https://docs.terp.network/"
                                          target="_blank" rel="noopener noreferrer" className="inner-item">Become a Validator <Icon viewClass="social_icon_imgg"
                                                                                                          icon={'exlink'} /></a>
                                       </div>
@@ -177,12 +182,9 @@ const Header = () => {
                                 <div className="nav-dropdown-item">
                                     <div className="inner-items firstone">
                                         <div className="inner-item-container">
-                                        <a href="https://terp.network/" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item m-0">
+                                    
                                             <img src={logo} alt="logo"/>
                                             <p className="header logo m-0">View Applications</p>
-
-                                        </a>
                                         </div>
                                     </div>
                                 </div>
@@ -195,12 +197,31 @@ const Header = () => {
                                                                                                   icon={'exlink'} /></a>
                                         </div>
                                         <div className="inner-item-container">
-                                            <a href="https://skynetexplorers.com/terpnetwork/" rel="noopener noreferrer"
-                                               target="_blank" className="inner-item">Skynet Explorer <Icon viewClass="social_icon_imgg"
+                                            <a href="https://explorer.kjnodes.com/terp-testnet/" rel="noopener noreferrer"
+                                               target="_blank" className="inner-item">KjNodes Explorer <Icon viewClass="social_icon_imgg"
                                                                                                     icon={'exlink'} /></a>
                                         </div>
                                     </div>
-                                </div>  
+                                </div> 
+                                <div className="nav-dropdown-item">
+                                  <p className="header">NEW: Genesis Launch Prep</p>
+                                  <div className="inner-items">
+                                      <div className="inner-item-container">
+                                      <a href="https://github.com/terpnetwork/genesis-prelaunch/blob/main/docs/scavenger-hunt.mdl"
+                                         target="_blank" rel="inner-item" className="inner-item">NEW: TestNET Scavenger Hunt <Icon viewClass="social_icon_imgg" icon={'exlink'} /></a>
+                                      </div>
+                                      <div className="inner-item-container">
+                                      <a href="https://docs.terp.network"
+                                         className="inner-item" target="_blank" rel="noopener noreferrer">NEW: Terp & Persy - Proposed Vesting & Distribution  <Icon viewClass="social_icon_imgg" icon={'exlink'} /></a>
+                                      </div>
+                                      <div className="inner-item-container">
+                                      <a href="https://github.com/terpnetwork/genesis-prelaunch/blob/main/docs/daos.md" target="_blank" rel="noopener noreferrer" className="inner-item">NEW: DAO's & SubDAOs<Icon viewClass="social_icon_imgg" icon={'exlink'} /></a>
+                                      </div>
+                                      <div className="inner-item-container">
+                                      <a href="https://github.com/terpnetwork/genesis-prelaunch/blob/main/docs/daos.md" target="_blank" rel="noopener noreferrer" className="inner-item">NEW: Genesis Params Intro<Icon viewClass="social_icon_imgg" icon={'exlink'} /></a>
+                                      </div>
+                                  </div>
+                              </div> 
                                 <div className="nav-dropdown-item">
                                     <p className="header">WALLETS</p>
                                     <div className="inner-items">
@@ -212,7 +233,7 @@ const Header = () => {
                                         <div className="inner-item-container">
 
                                         <a href="https://www.leapwallet.io/" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Leap Wallet (wen?) <Icon viewClass="social_icon_imgg"
+                                           target="_blank" className="inner-item">Leap Wallet <Icon viewClass="social_icon_imgg"
                                                                                                      icon={'exlink'} /></a>
                                         </div>
                                     </div>
@@ -239,7 +260,7 @@ const Header = () => {
                                     <div className="inner-items">
                                         <div className="inner-item-container">
                                         <a href="https://forms.gle/Jujc3wxfEU22iChTA" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">TerpTEAM Program <Icon viewClass="social_icon_imgg"
+                                           target="_blank" className="inner-item">Terp OG Foundation Member Program<Icon viewClass="social_icon_imgg"
                                                                                               icon={'exlink'} /></a>
                                         </div>
                                         <div className="inner-item-container m-none">
@@ -253,31 +274,15 @@ const Header = () => {
                                     </div>
                                 </div>
                                 <div className="nav-dropdown-item">
-                                    <p className="header">tutorials</p>
-                                    <div className="inner-items">
-                                        <div className="inner-item-container">
-                                        <a href="https://terpnetwork.medium.com" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Stake $TERP (soon) <Icon viewClass="social_icon_imgg"
-                                                                                              icon={'exlink'} /></a>
-                                        </div>
-                                        <div className="inner-item-container">
-                                        <a href="https://docs.terp.network" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Build Applications <Icon viewClass="social_icon_imgg"
-                                                                                                     icon={'exlink'} /></a>
-                                        </div>
-                                        <div className="inner-item-container">
-                                        <a href="https://terpnetwork.medium.com" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Setup TERP wallet <Icon viewClass="social_icon_imgg"
-                                                                                               icon={'exlink'} /></a>
-                                        </div>
-                                    </div>
+                                    <p className="header">tutorials (Coming Soon)</p>
+                                    
                                 </div>
                                 <div className="nav-dropdown-item">
                                     <p className="header">forum</p>
                                     <div className="inner-items">
                                         <div className="inner-item-container">
-                                        <a href="https://forum.terp.network/" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Community Forum <Icon viewClass="social_icon_imgg"
+                                        <a href="https://terp.network" rel="noopener noreferrer"
+                                           target="_blank" className="inner-item">Community Forum (Coming Soon)<Icon viewClass="social_icon_imgg"
                                                                                                         icon={'exlink'} /></a>
                                         </div>
                                         <div className="inner-item-container">
@@ -293,7 +298,7 @@ const Header = () => {
                             </div>
                         </NavDropdown>
                         <Nav.Link className="nav-link dropdown-toggle" rel="noopener noreferrer"
-                                  target="_blank" href="http://blog.terp.network/"
+                                  target="_blank" href="https://terpnetwork.medium.com/"
                                  data-toggle="dropdown" aria-haspopup="true"
                                  aria-expanded="false">
                             {("BLOG")}

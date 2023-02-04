@@ -17,7 +17,8 @@ const Ecosystem = () => {
                             <div className={'card-section'}>
                             <Card.Body >
                                 <Card.Text className={'mb-3 mt-4'}>
-                                    <span>Terp tokens power governance features built into the network, molding Terp Network to become the optimized platform for its purpose. </span>
+                                    <span>Terp tokens power governance features built into the network, .
+                                    This allows the molding of Terp Network to become the optimized platform for our community.</span>
 
                                 </Card.Text>
                                 <div className={'networks mt-4'}>

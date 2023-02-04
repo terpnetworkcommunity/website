@@ -23,19 +23,19 @@ const Banner = () => {
                     </div>
                         <div className="stats-container text-white">
                             <div className="stats-section">
-                                <h2>+50</h2>
-                                <h6 className="home-desc">Interoperable Networks</h6>
+                                <h2>+52</h2>
+                                <h6 className="home-desc">Interoperable Zones</h6>
                             </div>
                             <div className="stats-section">
                                 <h2>$0</h2>
                                 <h6 className="home-desc">Presale Raised</h6>
                             </div>
                             <div className="stats-section">
-                                <h2>$13.9 Billion</h2>
-                                <h6 className="home-desc">Cosmos Network Market Cap</h6>
+                                <h2>$66+ Billion</h2>
+                                <h6 className="home-desc">Digital Assets on Cosmos Networks </h6>
                             </div>
                             <div className="stats-section">
-                                <h2>$1.1 Billion</h2>
+                                <h2>$790+ Million</h2>
                                 <h6 className="home-desc">IBC Volume (30 Days)</h6>
                             </div>
                         </div>
