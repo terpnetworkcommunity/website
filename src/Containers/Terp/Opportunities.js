@@ -13,58 +13,49 @@ const Opportunities = () => {
                 <div className="content">
                     <p className="title">Opportunities With TERP</p>
                     <div className="staking-boxes">
-                        <p className="heading">Staking</p>
+                        <p className="heading">Develop</p>
                         <div className="boxes row">
                             <div className="col-md-6">
                                 <div className="box">
-                                <p className="name">Staking</p>
-                                <p className="apr">TBD</p>
-                                <p className="sub-title">Staking Rewards</p>
+                                <p className="name">Censorship-Resistant Applications </p>
+                                <p className="apr"></p>
+                                <p className="sub-title"> Upload CosmWasm code to Terp Network for building your applications </p>
                                 <div className="buttons">
-                                    <a href="https://wallet.keplr.app/#/core/stake"
+                                    <a href="https://docs.terp.network/frontend/"
                                        className="primary"
-                                       target="_blank" rel="noopener noreferrer">
-                                        Stake
-                                    </a>
-
-                                    <a target="_blank" rel="noopener noreferrer" href="https://docs.terp.network"
-                                       className="button-secondary">
-                                        TUTORIAL
-                                    </a>
+                                       target="_blank" rel="noopener noreferrer">Docs</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://daodao.terp.network"
+                                       className="button-secondary">View example</a>
                                 </div>
                                 </div>
                             </div>
                             <div className="col-md-6">
                                 <div className="box">
-                                <p className="name">Liquid Staking</p>
-                                <p className="apr">TBD</p>
-                                <p className="sub-title">Staking Rewards + DeFi yields</p>
+                                <p className="name">Create Core Logic</p>
+                                <p className="apr"></p>
+                                <p className="sub-title">Thanks to CosmosSDK, additional logic can be added directly to Terp-Core </p>
                                 <div className="buttons">
-                                    <a href="https://app.terp.network/" target="_blank" rel="noopener noreferrer" className="primary">
-                                        LIQUID STAKING
+                                    <a href="https://docs.terp.network/terp-core/modules" target="_blank" rel="noopener noreferrer" className="primary">
+                                        Learn More
                                     </a>
 
-                                    <a href="https://www.youtube.com/watch?v=9B1ktY5BS8o" target="_blank" rel="noopener noreferrer" className="button-secondary">
-                                        TUTORIAL
-                                    </a>
                                 </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="staking-boxes defi">
-                        <p className="heading">DeFi</p>
+                        <p className="heading">Participate</p>
                         <div className="boxes row">
                             <div className="col-md-6">
                                 <div className="box">
                                     <p className="name">
-                                        <img src={osmo} alt="osmo" />
+                                    Self-Govern
                                     </p>
-                                    <p className="sub-title">TERP/USDC Pool</p>
-                                    <p className="apr"> TBD <span className="apr-text">APR</span></p>
+                                    <p className="sub-title">Participate in on-chain consensus to be a part of molding Terp Network </p>
                                     <div className="buttons">
-                                        <a href="https://app.osmosis.zone/pool/719" target="_blank" rel="noopener noreferrer" className="primary">
-                                            Explore More
+                                        <a href="https://docs.terp.network" target="_blank" rel="noopener noreferrer" className="primary">
+                                            Get Started
                                         </a>
                                     </div>
                                 </div>
@@ -72,14 +63,13 @@ const Opportunities = () => {
                             <div className="col-md-6">
                                 <div className="box">
                                     <p className="name">
-                                        <img src={osmo} alt="osmo" />
+                                    Validate
                                     </p>
-                                    <p className="sub-title">TERP/ATOM Pool</p>
+                                    <p className="sub-title">Secure the network & get rewarded by running your own validator.</p>
 
-                                    <p className="apr">TBD<span className="apr-text">APR</span></p>
                                     <div className="buttons">
                                         <a href="https://app.osmosis.zone/" target="_blank" rel="noopener noreferrer" className="primary">
-                                            Explore More
+                                            Learn More
                                         </a>
                                     </div>
                                 </div>
@@ -89,10 +79,9 @@ const Opportunities = () => {
                             <div className="col-md-6">
                                 <div className="box">
                                     <p className="name">
-                                        <img src={osmo} alt="osmo" />
+                                    Collaborate
                                     </p>
-                                    <p className="sub-title">TERP/OSMO Pool</p>
-                                    <p className="apr">TBD <span className="apr-text">APR</span></p>
+                                    <p className="sub-title">Meet community members and collaborate on opportunities within the ecosystem.</p>
                                     <div className="buttons">
                                         <a href="https://app.osmosis.zone/" target="_blank" rel="noopener noreferrer" className="primary">
                                             Explore More
@@ -103,10 +92,10 @@ const Opportunities = () => {
                             <div className="col-md-6">
                                 <div className="box">
                                     <p className="name">
-                                        <img src={juno_swap} alt="juno" />
+                                    Learn & Teach
                                     </p>
-                                    <p className="sub-title">TERP/JUNO Pool</p>
-                                    <p className="apr"><span className="apr-text">(Rewards Coming Soon)</span></p>
+                                    <p className="sub-title">Gain the experience nessesary to navigate defi safely by participating in various on-chain activities</p>
+                                    <p className="apr"><span className="apr-text"></span></p>
                                     <div className="buttons">
                                         <a href="https://junoswap.com/pools/" target="_blank" rel="noopener noreferrer" className="primary">
                                             Explore More
