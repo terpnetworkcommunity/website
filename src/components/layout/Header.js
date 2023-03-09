@@ -247,7 +247,21 @@ const Header = () => {
                                 </div>
                                 <div className="nav-dropdown-item">
                                     <p className="header">Tutorials</p>
-                                    
+                                    <div className="inner-items">
+                                        <div className="inner-item-container">
+                                        <a href="https://regen-network.medium.com/setting-up-keplr-wallet-and-best-practices-for-keeping-your-crypto-safe-cfe5f924692d" rel="noopener noreferrer"
+                                           target="_blank" className="inner-item">Set Up Keplr Wallet<Icon viewClass="social_icon_imgg"
+                                                                                                        icon={'exlink'} /></a>
+                                        </div>
+                                        <div className="inner-item-container">
+                                        <a href="https://help.keplr.app/" rel="noopener noreferrer"
+                                            className="inner-item">Community FAQs <Icon viewClass="social_icon_imgg"
+                                                                                                       icon={'exlink'} /></a>
+                                        </div>
+                                        <div className="inner-item-container">
+                                            <Link className="inner-item">&nbsp;</Link>
+                                        </div>
+                                    </div>   
                                 </div>
                                 <div className="nav-dropdown-item">
                                     <p className="header">Forum</p>
