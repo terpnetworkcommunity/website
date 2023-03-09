@@ -81,8 +81,7 @@ const Footer = (props) => {
                                 <div className="col-lg-4 col-md-4 col-sm-12 margin-t-20">
                                     <h6>{("Community")}</h6>
                                     <div className="text-muted mt-30">
-                                        <ul className="list-unstyled footer-list">
-                                            <li><a href="?usp=sharing" rel="noopener noreferrer" target="_blank">{("Grants (soon) ")}</a></li>
+                                        <ul className="list-unstyled footer-list">         
                                             <li><a href="https://forms.gle/Jujc3wxfEU22iChTA" rel="noopener noreferrer" target="_blank">{("TerpTEAM Program")}</a></li>
                                             <li><a href="https://github.com/terpnetworkcommunity/DAO/tree/main/foundation-delegation-policy" rel="noopener noreferrer" target="_blank">{("Foundation Delegation")}</a></li>
                                         </ul>
