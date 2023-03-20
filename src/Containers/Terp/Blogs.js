@@ -18,13 +18,13 @@ const responsive = {
 };
 const images = [
     {
-        url:'https://terpnetwork.medium.com/',
-        image:'',
+        url:'https://regen-network.medium.com/setting-up-keplr-wallet-and-best-practices-for-keeping-your-crypto-safe-cfe5f924692d',
+        image:'https://miro.medium.com/max/1400/1*BB8Dhd_9iQFN6ru74OPOvQ.jpeg',
         text:'Wallet Setup Guide'
     },
     {
-        url:'',
-        image:'',
+        url:'https://help.keplr.app/',
+        image: 'https://miro.medium.com/max/1400/1*BB8Dhd_9iQFN6ru74OPOvQ.jpeg',
         text:'TERP Staking Guide'
     },
    

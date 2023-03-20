@@ -16,10 +16,6 @@ const Banner = () => {
                             className="button-initial button one">
                             Learn More
                         </a>
-                            <a href="https://terp.network" rel="noopener noreferrer"
-                               target="_blank" className="button-initial button">
-                                Ecosystem Grants (soon)
-                            </a>
                     </div>
                         <div className="stats-container text-white">
                             <div className="stats-section">

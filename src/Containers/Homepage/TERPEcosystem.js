@@ -76,13 +76,13 @@ const TerpEcosystem = () => {
                                         to realise innovative use-cases for Terp-Core
                                     </Card.Text>
                                     <div className={"button-section cards-buttons mt-5"}>
-                                        <a href="https://terp.network" rel="noopener noreferrer"
+                                        <a href="https://docs.terp.network/cosmwasm/" rel="noopener noreferrer"
                                            target="_blank" className="button-initial button">
-                                            ECOSYSTEM GRANTS (soon)
+                                            CosmWasm
                                         </a>
-                                        <a href="https://github.com/terpnetwork/terp-core" rel="noopener noreferrer"
+                                        <a href="https://docs.terp.network/frontend/" rel="noopener noreferrer"
                                            target="_blank" className="button-initial button ml-3">
-                                            GITHUB
+                                            Frontends & Client Tooling
                                         </a>
                                     </div>
                                 </Card.Body>
@@ -102,13 +102,9 @@ const TerpEcosystem = () => {
                                     </Card.Text>
 
                                     <div className={"comingsoon cards-buttons button-section mt-5"}>
-                                        <a href="https://docs.terp.network" rel="noopener noreferrer"
+                                        <a href="https://docs.terp.network/overview/validate" rel="noopener noreferrer"
                                            target="_blank" className="button-initial button">
                                             DOCS
-                                        </a>
-                                        <a href="https://github.com/terpnetworkcommunity" rel="noopener noreferrer"
-                                           target="_blank" className="button-initial button ml-3">
-                                            FOUNDATION DELEGATION
                                         </a>
                                     </div>
                                 </Card.Body>

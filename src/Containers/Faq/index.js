@@ -109,23 +109,6 @@ const Faq = () => {
                                     <Card>
                                         <Card.Header>
                                             <p>
-                                            How does TERP accrue value?
-                                            </p>
-                                            <ContextAwareToggle eventKey="5">Click me!</ContextAwareToggle>
-                                        </Card.Header>
-                                        <Accordion.Collapse eventKey="5">
-                                            <Card.Body>
-                                                <p>
-                                                    TERP accrues value from the economic activity within the Terp
-                                                    ecosystem of applications, through multiple channels like transaction
-                                                    fees, fee sharing with ecosystem dApps, IBC hub-routing, etc.
-                                                </p>
-                                            </Card.Body>
-                                        </Accordion.Collapse>
-                                    </Card>
-                                    <Card>
-                                        <Card.Header>
-                                            <p>
                                             Where can I buy TERP?
                                             </p>
                                             <ContextAwareToggle eventKey="6">Click me!</ContextAwareToggle>

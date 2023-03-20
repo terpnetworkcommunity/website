@@ -135,19 +135,14 @@ const Header = () => {
                                                                                                         icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
-                                          <a href="https://github.com/terpnetwork/terp-core.git" rel="noopener noreferrer"
-                                             target="_blank" className="inner-item">Terp-Core <Icon viewClass="social_icon_imgg"
+                                          <a href="https://get.terp.network" rel="noopener noreferrer"
+                                             target="_blank" className="inner-item">Terp-Core Installer<Icon viewClass="social_icon_imgg"
                                                                                                           icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
                                       <a href="https://github.com/orgs/terpnetwork/repositories" rel="noopener noreferrer"
                                          target="_blank" className="inner-item">Github  <Icon viewClass="social_icon_imgg"
                                                                                                         icon={'exlink'} /></a>
-                                      </div>
-                                      <div className="inner-item-container">
-                                      <a href="https://github.com/terpnetwork/genesis-prelaunch/blob/main/docs/scavenger-hunt.md" rel="noopener noreferrer"
-                                         target="_blank" className="inner-item">NEW: TestNET Scavenger Hunt <Icon viewClass="social_icon_imgg"
-                                                                                                          icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
                                       <a href="https://discord.gg/SYEjMwAac7" rel="noopener noreferrer"
@@ -161,17 +156,16 @@ const Header = () => {
                                   <div className="inner-items">
                                       <div className="inner-item-container">
                                       <a href="https://docs.terp.network/"
-                                         target="_blank" rel="noopener noreferrer" className="inner-item">Become a Validator <Icon viewClass="social_icon_imgg"
+                                         target="_blank" rel="noopener noreferrer" className="inner-item">Validate Terp Network<Icon viewClass="social_icon_imgg"
                                                                                                          icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
                                       <a href="https://docs.terp.network"
-                                         className="inner-item" target="_blank" rel="noopener noreferrer">Foundation Delegation Program (soon) <Icon viewClass="social_icon_imgg"
+                                         className="inner-item" target="_blank" rel="noopener noreferrer">Foundation Delegation Program <Icon viewClass="social_icon_imgg"
                                                                                                                 icon={'exlink'} /></a>
                                       </div>
                                       <div className="inner-item-container">
-                                      <a href="https://rpc.terp.network/" target="_blank" rel="noopener noreferrer" className="inner-item">RPC End Points <Icon viewClass="social_icon_imgg"
-                                                                                                                                                                        icon={'exlink'} /></a>
+                                      <a href="https://github.com/terpnetwork/test-net" target="_blank" rel="noopener noreferrer" className="inner-item">TestNET Resources <Icon viewClass="social_icon_imgg"                                                                                                                            icon={'exlink'} /></a>
                                       </div>
                                   </div>
                               </div>
@@ -181,11 +175,7 @@ const Header = () => {
                             <div className="container nav-dropdown-items ecosystem-items pl-0 pr-0">
                                 <div className="nav-dropdown-item">
                                     <div className="inner-items firstone">
-                                        <div className="inner-item-container">
-                                    
-                                            <img src={logo} alt="logo"/>
-                                            <p className="header logo m-0">View Applications</p>
-                                        </div>
+                                   
                                     </div>
                                 </div>
                                 <div className="nav-dropdown-item">
@@ -203,25 +193,7 @@ const Header = () => {
                                         </div>
                                     </div>
                                 </div> 
-                                <div className="nav-dropdown-item">
-                                  <p className="header">NEW: Genesis Launch Prep</p>
-                                  <div className="inner-items">
-                                      <div className="inner-item-container">
-                                      <a href="https://github.com/terpnetwork/genesis-prelaunch/blob/main/docs/scavenger-hunt.mdl"
-                                         target="_blank" rel="inner-item" className="inner-item">NEW: TestNET Scavenger Hunt <Icon viewClass="social_icon_imgg" icon={'exlink'} /></a>
-                                      </div>
-                                      <div className="inner-item-container">
-                                      <a href="https://docs.terp.network"
-                                         className="inner-item" target="_blank" rel="noopener noreferrer">NEW: Terp & Persy - Proposed Vesting & Distribution  <Icon viewClass="social_icon_imgg" icon={'exlink'} /></a>
-                                      </div>
-                                      <div className="inner-item-container">
-                                      <a href="https://github.com/terpnetwork/genesis-prelaunch/blob/main/docs/daos.md" target="_blank" rel="noopener noreferrer" className="inner-item">NEW: DAO's & SubDAOs<Icon viewClass="social_icon_imgg" icon={'exlink'} /></a>
-                                      </div>
-                                      <div className="inner-item-container">
-                                      <a href="https://github.com/terpnetwork/genesis-prelaunch/blob/main/docs/daos.md" target="_blank" rel="noopener noreferrer" className="inner-item">NEW: Genesis Params Intro<Icon viewClass="social_icon_imgg" icon={'exlink'} /></a>
-                                      </div>
-                                  </div>
-                              </div> 
+                               
                                 <div className="nav-dropdown-item">
                                     <p className="header">WALLETS</p>
                                     <div className="inner-items">
@@ -274,15 +246,29 @@ const Header = () => {
                                     </div>
                                 </div>
                                 <div className="nav-dropdown-item">
-                                    <p className="header">tutorials (Coming Soon)</p>
-                                    
+                                    <p className="header">Tutorials</p>
+                                    <div className="inner-items">
+                                        <div className="inner-item-container">
+                                        <a href="https://regen-network.medium.com/setting-up-keplr-wallet-and-best-practices-for-keeping-your-crypto-safe-cfe5f924692d" rel="noopener noreferrer"
+                                           target="_blank" className="inner-item">Set Up Keplr Wallet<Icon viewClass="social_icon_imgg"
+                                                                                                        icon={'exlink'} /></a>
+                                        </div>
+                                        <div className="inner-item-container">
+                                        <a href="https://help.keplr.app/" rel="noopener noreferrer"
+                                            className="inner-item">Community FAQs <Icon viewClass="social_icon_imgg"
+                                                                                                       icon={'exlink'} /></a>
+                                        </div>
+                                        <div className="inner-item-container">
+                                            <Link className="inner-item">&nbsp;</Link>
+                                        </div>
+                                    </div>   
                                 </div>
                                 <div className="nav-dropdown-item">
-                                    <p className="header">forum</p>
+                                    <p className="header">Forum</p>
                                     <div className="inner-items">
                                         <div className="inner-item-container">
                                         <a href="https://terp.network" rel="noopener noreferrer"
-                                           target="_blank" className="inner-item">Community Forum (Coming Soon)<Icon viewClass="social_icon_imgg"
+                                           target="_blank" className="inner-item">Community Forum (Soon)<Icon viewClass="social_icon_imgg"
                                                                                                         icon={'exlink'} /></a>
                                         </div>
                                         <div className="inner-item-container">
