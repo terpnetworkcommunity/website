@@ -6,7 +6,7 @@ const Banner = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 col-sm-12 text-center">
-                        <p className="banner-heading"><span>TERPNET: Decentralized Infrastructure for the Cannabis Community  </span></p>
+                        <p className="banner-heading"><span>TERPNET: Decentralized Infrastructure for Terp Culture  </span></p>
                         <p className="text">
                             Terp Network is a decentralized L1 blockchain hub within the Interchain, powering
                             <span>   a full spectrum of DeFi applications.</span>

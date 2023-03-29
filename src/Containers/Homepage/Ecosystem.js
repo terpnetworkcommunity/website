@@ -10,15 +10,15 @@ const Ecosystem = () => {
         <section className="home-ecosystem-section">
             <div className="container">
                 <h3 className="section-title">Infusing Censorship Resistant Technology</h3>
-                <p className="sub-heading">TerpNET ecosystem applications are bridging self-soviergn oriented applications into our community.</p>
+                <p className="sub-heading">TerpNET applications bridge self-soviergnty & interoperability into our community. Utilize any Terp Network logic in your buisness model to integrate censorship-resistant solutions & discover amazing opportunities.</p>
                 <div className="card-tiles">
                     <CardGroup>
                         <Card className={'h-100'}>
                             <div className={'card-section'}>
                             <Card.Body >
+                                <h3 className='section-title'>What is it?</h3>
                                 <Card.Text className={'mb-3 mt-4'}>
-                                    <span>Terp tokens power governance features built into the network, .
-                                    This allows the molding of Terp Network to become the optimized platform for our community.</span>
+                                    <span>A community owned smart contract database for creating solutions to problems that exist in our culture.</span>
 
                                 </Card.Text>
                                 <div className={'networks mt-4'}>

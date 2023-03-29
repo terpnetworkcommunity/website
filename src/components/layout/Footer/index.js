@@ -75,6 +75,8 @@ const Footer = (props) => {
                                                 rel="noopener noreferrer">Careers</a></li>
                                             <li><a href="https://terp.network" target="_blank"
                                                    rel="noopener noreferrer">Press & Brand (soon)</a></li>
+                                                    <li><a href="/legal" target="_blank"
+                                                   rel="noopener noreferrer">Terms of Service</a></li>
                                         </ul>
                                     </div>
                                 </div>

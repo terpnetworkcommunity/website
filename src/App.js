@@ -10,6 +10,7 @@ import Ecosystem from "./views/Ecosystem";
 import "react-multi-carousel/lib/styles.css";
 import Terp from "./views/Terp";
 import Faq from "./views/Faq";
+import Legal from "./views/Legal";
 
 ReactGA.initialize(process.env.REACT_APP_GA_ID);
 
@@ -41,6 +42,7 @@ const App = () => {
             <AppRoute exact path="/ecosystem" component={Ecosystem} layout={LayoutDefault} />
             <AppRoute exact path="/Terp" component={Terp} layout={LayoutDefault} />
             <AppRoute exact path="/faq" component={Faq} layout={LayoutDefault} />
+            <AppRoute exact path="/legal" component={Legal} layout={LayoutDefault} />
         </Switch>
   );
 };
